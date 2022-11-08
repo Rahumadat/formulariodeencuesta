@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form class="form" action="/result" method="post">
+        <label for="inputname">Your Name:</label>
+        <input type="text" name="inputname" id="inputname"> <br>
+        <label for="nombre">Dojo Location:</label>
+        <select name="location" id="DojoLocation">
+            <option value="MountView">Mountain View</option>
+            <option value="NY">New York</option>
+            <option value="Chile">Chile</option>
+        </select><br>
+        <label for="nombre">Favorite Language:</label>
+        <select name="FavoriteLanguaje" id="FavLang">
+            <option value="Javascript">Javascript</option>
+            <option value="Cobol">Cobol</option>
+            <option value="Fortran">Fortran</option>
+        </select><br>
+        <label for="nombre">Comment (optional):</label>
+        <textarea name="Comment" id="comment" cols="15" rows="5"></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
